@@ -1,11 +1,6 @@
-const amount = 12
+//Modules
+//every file is module in common js
+//modules - encapsulated code
 
-if(amount == 12)
-{
-    console.log('equal')
-}
-else
-{
-    console.log('not 12')
-}
-console.log('its my first node app')
+const names =  require('./3-names')
+console.log(names)
